@@ -37,6 +37,7 @@ public class EasyCode
                 if(chars[i]=='?' || chars[i]=='!' || chars[i]=='.') //also checks for end punc
                 {
                     endPunc=chars[i];
+                    int bruh = 18;
                 }
                 else
                 blank+=chars[i];
