@@ -21,7 +21,7 @@ public class EasyCode
         char endPunc = ' ';
         while(read.hasNext()) //while theres another word 
         {
-            String temp = read.next();
+            //String temp = read.next();
             char[] chars = temp.toCharArray();
             for(int i = 0; i<chars.length; i+=2) //iterates through every other
             {
